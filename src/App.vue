@@ -10,6 +10,7 @@
           <a href="https://github.com/agrimreaper49/Battleship">Battleship</a>
           <a href="https://github.com/agrimreaper49/Course-Compass">Course Compass</a>
           <a href="https://github.com/iliterobotics/FRC-Robot-2022">ILITE Robotics</a>
+          <a href="https://github.com/agrimreaper49/SudokuApp">Sudoku App</a>
         </div>
       </div>
       <div class="dropdown">
@@ -23,14 +24,14 @@
     
     <div class="container">
       <h1>Agrim Sharma</h1>
-      <p>UVA Computer Science Student. Aspiring Software Engineer</p>
+      <p>Computer Science @ UVA. Aspiring Software Engineer.</p>
       <a href="https://github.com/agrimreaper49" target="_blank">
         <i class="fab fa-github social-icon"></i>
       </a>
       <a href="https://www.linkedin.com/in/agrim-sharma571/" target="_blank">
         <i class="fab fa-linkedin social-icon"></i>
       </a>
-      <a href="/resume.pdf" target="_blank">
+      <a href="https://agrimreaper49.github.io/resume.pdf" target="_blank">
         <i class="fas fa-file-alt social-icon"></i>
       </a>
     </div>
@@ -40,18 +41,30 @@
 
 <style>
 .dropdown-container {
-  margin-top: 0px; /* Adjust this value to reduce space from the top */
+  margin-top: 0px;
   display: flex;
-  align-items: flex-start; /* Align items to the start of the container vertically */
-  justify-content: flex-start; /* Align items to the start of the container horizontally */
+  align-items: flex-start;
+  justify-content: flex-start;
 }
 .dropbtn {
-  background-color: transparent; /* No background color */
+  background-color: transparent;
   font-family: 'Rubik', sans-serif;
   padding: 16px;
   font-size: 16px;
   border: none;
   cursor: pointer;
+  transition: background-color 0.1s;
+}
+.dropbtn:hover {
+  background-color: #d9d9d9;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #d9d9d9; 
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
 }
 
 .dropdown-content {

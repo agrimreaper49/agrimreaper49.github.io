@@ -10,6 +10,7 @@
           <a href="https://github.com/agrimreaper49/Battleship">Battleship</a>
           <a href="https://github.com/agrimreaper49/Course-Compass">Course Compass</a>
           <a href="https://github.com/iliterobotics/FRC-Robot-2022">ILITE Robotics</a>
+          <a href="https://github.com/agrimreaper49/ClubMatch">Club Compass</a>
           <a href="https://github.com/agrimreaper49/SudokuApp">Sudoku App</a>
         </div>
       </div>
@@ -21,7 +22,10 @@
       </div>
     </div>
 
-    
+    <footer class="footer">
+      asharma | 2023
+    </footer>
+
     <div class="container">
       <h1>Agrim Sharma</h1>
       <p>Computer Science @ UVA. Aspiring Software Engineer.</p>
@@ -31,7 +35,7 @@
       <a href="https://www.linkedin.com/in/agrim-sharma571/" target="_blank">
         <i class="fab fa-linkedin social-icon"></i>
       </a>
-      <a href="https://agrimreaper49.github.io/resume.pdf" target="_blank">
+      <a href="https://drive.google.com/file/d/1rH61pHWKnAjw4cvIqna7Xhgsppw8RMlf/view?usp=sharing" target="_blank">
         <i class="fas fa-file-alt social-icon"></i>
       </a>
     </div>
@@ -40,6 +44,13 @@
 
 
 <style>
+.footer {
+  text-align: center;
+  position: absolute;
+  font-family: 'Rubik', sans-serif;
+  padding: 20px;
+  bottom: 0;
+}
 .dropdown-container {
   margin-top: 0px;
   display: flex;
@@ -83,6 +94,7 @@
   padding: 12px 16px;
   text-decoration: none;
   display: block;
+  text-align: left;
 }
 
 .dropdown-content a:hover {background-color: #f1f1f1;}
@@ -93,7 +105,7 @@
 
 .dropdown {
  display: inline-block;
-  margin-right: 5px; /* Adjust the spacing between dropdowns */
+  margin-right: 5px;
 }
 .uva-logo {
   position: absolute;

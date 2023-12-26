@@ -1,17 +1,17 @@
 <template>
   <div id="app">
     <a href="https://engineering.virginia.edu/departments/computer-science" target="_blank">
-      <img src="/Virginia_Cavaliers_logo.svg.png" alt="UVA Logo" class="uva-logo" />
+      <img src="/rotunda.png" alt="UVA Logo" class="uva-logo" />
     </a>
     <div class="dropdown-container">
       <div class="dropdown">
         <button class="dropbtn">Projects</button>
         <div class="dropdown-content">
-          <a href="https://github.com/agrimreaper49/Battleship">Battleship</a>
-          <a href="https://github.com/agrimreaper49/Course-Compass">Course Compass</a>
-          <a href="https://github.com/iliterobotics/FRC-Robot-2022">ILITE Robotics</a>
-          <a href="https://github.com/agrimreaper49/ClubMatch">Club Compass</a>
-          <a href="https://github.com/agrimreaper49/SudokuApp">Sudoku App</a>
+          <a href="https://github.com/agrimreaper49/Battleship" target="_blank">Battleship</a>
+          <a href="https://github.com/agrimreaper49/Course-Compass" target="_blank">Course Compass</a>
+          <a href="https://github.com/iliterobotics/FRC-Robot-2022" target="_blank">ILITE Robotics</a>
+          <a href="https://github.com/agrimreaper49/ClubMatch" target="_blank">Club Compass</a>
+          <a href="https://github.com/agrimreaper49/SudokuApp" target="_blank">Sudoku App</a>
         </div>
       </div>
       <div class="dropdown">
@@ -28,14 +28,15 @@
 
     <div class="container">
       <h1>Agrim Sharma</h1>
-      <p>Computer Science @ UVA. Aspiring Software Engineer.</p>
+      <p>Computer Science @ UVA</p>
+      <p>Professional Interests: Robotics, AI/ML, and Full-stack development</p>
       <a href="https://github.com/agrimreaper49" target="_blank">
         <i class="fab fa-github social-icon"></i>
       </a>
       <a href="https://www.linkedin.com/in/agrim-sharma571/" target="_blank">
         <i class="fab fa-linkedin social-icon"></i>
       </a>
-      <a href="https://drive.google.com/file/d/1rH61pHWKnAjw4cvIqna7Xhgsppw8RMlf/view?usp=sharing" target="_blank">
+      <a href="/Resume.pdf" target="_blank">
         <i class="fas fa-file-alt social-icon"></i>
       </a>
     </div>
@@ -99,9 +100,6 @@
 
 .dropdown-content a:hover {background-color: #f1f1f1;}
 
-.dropdown:hover .dropdown-content {
-  display: block;
-}
 
 .dropdown {
  display: inline-block;

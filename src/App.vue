@@ -125,7 +125,7 @@
 
 /* Apply background image to the entire page */
 body {
-  background-image: url('background.jpg');
+  background-image: url('/public/background.jpg');
   background-size: cover; /* Ensure the background covers the entire page */
   background-position: center; /* Center the background image */
   background-repeat: no-repeat; /* Prevent the background from repeating */

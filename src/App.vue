@@ -12,6 +12,7 @@
           <a href="https://github.com/iliterobotics/FRC-Robot-2022" target="_blank">ilite robotics</a>
         </div>
       </div>
+      <a href="#about" class="btn-about">about</a>
     </div>
 
     <footer class="footer">
@@ -121,6 +122,16 @@
 .container {
   margin-top: 60px;
 }
+
+/* Apply background image to the entire page */
+body {
+  background-image: url('background.jpg');
+  background-size: cover; /* Ensure the background covers the entire page */
+  background-position: center; /* Center the background image */
+  background-repeat: no-repeat; /* Prevent the background from repeating */
+  background-attachment: fixed; /* Keep the background image fixed during scrolling */
+}
+
 
 h1 {
   font-family: 'Rubik', sans-serif;

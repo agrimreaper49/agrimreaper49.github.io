@@ -14,22 +14,16 @@
           <a href="https://github.com/agrimreaper49/SudokuApp" target="_blank">Sudoku App</a>
         </div>
       </div>
-      <div class="dropdown">
-        <button class="dropbtn">Contact</button>
-        <div class="dropdown-content">
-          <a href="mailto:agrimsharma571@gmail.com">Email</a>
-        </div>
-      </div>
     </div>
 
     <footer class="footer">
-      asharma | 2023
+      asharma | 2024
     </footer>
 
     <div class="container">
-      <h1>Agrim Sharma</h1>
-      <p>Computer Science @ UVA</p>
-      <p>Professional Interests: Robotics, AI/ML, and Full-stack development</p>
+      <h1>agrim sharma</h1>
+      <p>computer science @ uva</p>
+      <p></p>
       <a href="https://github.com/agrimreaper49" target="_blank">
         <i class="fab fa-github social-icon"></i>
       </a>
@@ -39,7 +33,11 @@
       <a href="/Resume.pdf" target="_blank">
         <i class="fas fa-file-alt social-icon"></i>
       </a>
-    </div>
+      <a href="mailto:agrimsharma571@gmail.com" target="_blank">
+        <i class="fas fa-envelope social-icon"></i>
+      </a>
+  </div>
+
   </div>
 </template>
 

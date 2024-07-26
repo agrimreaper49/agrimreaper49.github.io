@@ -5,13 +5,11 @@
     </a>
     <div class="dropdown-container">
       <div class="dropdown">
-        <button class="dropbtn">Projects</button>
+        <button class="dropbtn">work</button>
         <div class="dropdown-content">
-          <a href="https://github.com/agrimreaper49/Battleship" target="_blank">Battleship</a>
-          <a href="https://github.com/agrimreaper49/Course-Compass" target="_blank">Course Compass</a>
-          <a href="https://github.com/iliterobotics/FRC-Robot-2022" target="_blank">ILITE Robotics</a>
-          <a href="https://github.com/agrimreaper49/ClubMatch" target="_blank">Club Compass</a>
-          <a href="https://github.com/agrimreaper49/SudokuApp" target="_blank">Sudoku App</a>
+          <a href="https://github.com/agrimreaper49/Arka" target="_blank">arka</a>
+          <a href="https://github.com/agrimreaper49/tripsync" target="_blank">tripsync</a>
+          <a href="https://github.com/iliterobotics/FRC-Robot-2022" target="_blank">ilite robotics</a>
         </div>
       </div>
     </div>

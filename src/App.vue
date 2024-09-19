@@ -1,0 +1,147 @@
+<template>
+  <div id="app">
+    <a href="https://engineering.virginia.edu/departments/computer-science" target="_blank">
+      <img src="/rotunda.png" alt="UVA Logo" class="uva-logo" />
+    </a>
+    <div class="dropdown-container">
+      <div class="dropdown">
+        <button class="dropbtn">work</button>
+        <div class="dropdown-content">
+          <a href="https://github.com/agrimreaper49/Arka" target="_blank">arka</a>
+          <a href="https://github.com/agrimreaper49/tripsync" target="_blank">tripsync</a>
+          <a href="https://github.com/iliterobotics/FRC-Robot-2022" target="_blank">ilite robotics</a>
+        </div>
+      </div>
+    </div>
+
+    <footer class="footer">
+      asharma | 2024
+    </footer>
+
+    <div class="container">
+      <h1>agrim sharma</h1>
+      <p>computer science @ uva</p>
+      <p></p>
+      <a href="https://github.com/agrimreaper49" target="_blank">
+        <i class="fab fa-github social-icon"></i>
+      </a>
+      <a href="https://www.linkedin.com/in/agrim-sharma571/" target="_blank">
+        <i class="fab fa-linkedin social-icon"></i>
+      </a>
+      <a href="/Resume.pdf" target="_blank">
+        <i class="fas fa-file-alt social-icon"></i>
+      </a>
+      <a href="mailto:agrimsharma571@gmail.com" target="_blank">
+        <i class="fas fa-envelope social-icon"></i>
+      </a>
+  </div>
+
+  </div>
+</template>
+
+
+<style>
+.footer {
+  text-align: center;
+  position: absolute;
+  font-family: 'Rubik', sans-serif;
+  padding: 20px;
+  bottom: 0;
+}
+.dropdown-container {
+  margin-top: 0px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.dropbtn {
+  background-color: transparent;
+  font-family: 'Rubik', sans-serif;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.1s;
+}
+.dropbtn:hover {
+  background-color: #d9d9d9;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #d9d9d9; 
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-content {
+  font-family: 'Rubik', sans-serif;
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  font-family: 'Rubik', sans-serif;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+
+.dropdown {
+ display: inline-block;
+  margin-right: 5px;
+}
+.uva-logo {
+  position: absolute;
+  top: 10px; 
+  right: 20px; 
+  height: 40px; 
+  width: auto; 
+}
+.social-icon {
+  font-size: 1.5em; 
+  margin-right: 10px; 
+}
+
+#app {
+  text-align: center;
+  color: #2c3e50;
+}
+
+.container {
+  margin-top: 60px;
+}
+
+/* Apply background image to the entire page */
+body {
+  background-image: url('/public/background.jpg');
+  background-size: cover; /* Ensure the background covers the entire page */
+  background-position: center; /* Center the background image */
+  background-repeat: no-repeat; /* Prevent the background from repeating */
+  background-attachment: fixed; /* Keep the background image fixed during scrolling */
+}
+
+
+h1 {
+  font-family: 'Rubik', sans-serif;
+  font-size: 2em;
+  margin-bottom: 0;
+}
+
+p {
+  font-family: 'Rubik', sans-serif;
+  font-size: 1.2em;
+  color: #34495e;
+}
+</style>
+

@@ -12,7 +12,6 @@
           <a href="https://github.com/iliterobotics/FRC-Robot-2022" target="_blank">ilite robotics</a>
         </div>
       </div>
-      <a href="#about" class="btn-about">about</a>
     </div>
 
     <footer class="footer">
